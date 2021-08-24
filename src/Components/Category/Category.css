@@ -1,0 +1,20 @@
+.btn {
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 14px;
+  padding: 19px 16px;
+  width: 200px;
+}
+
+.btn:hover {
+  border: 1px solid #422ED4;
+}
+
+.btn:focus {
+  background-color: #422ED4;
+  color: #fff;
+}
