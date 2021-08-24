@@ -1,1 +1,1 @@
-An app that lets you enjoy cool Chuck Norris jokes.
+An app that lets you enjoy cool Chuck Norris jokes
