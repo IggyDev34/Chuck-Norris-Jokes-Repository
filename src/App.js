@@ -12,23 +12,23 @@ function App() {
     fetch(path)
       .then(res => res.json())
       .then(data => {
-        setQuoteOnScreen(quoteOnScreen = data.value)
+        setQuoteOnScreen(data.value)
       });
   };
 
   // get the initial quote
-  let [quoteOnScreen, setQuoteOnScreen] = useState('');
+  const [quoteOnScreen, setQuoteOnScreen] = useState('');
   useEffect(() => {
     getRandomQuote(`${url}random`)
   }, []);
 
   // get the categories' names
-  let [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
   useEffect(() => {
     fetch(`${url}categories`)
       .then(res => res.json())
       .then(data => {
-        setCategories(categories = data);
+        setCategories(data);
       });
   }, []);
 
