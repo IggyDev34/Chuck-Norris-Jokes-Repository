@@ -7,6 +7,8 @@ import image from './chuck.png';
 function App() {
   const url = 'https://api.chucknorris.io/jokes/';
 
+  const [currentCategory, setCurrentCategory] = useState('random');
+
   // function for getting quotes
   const getRandomQuote = (path) => {
     fetch(path)
@@ -36,14 +38,26 @@ function App() {
   const showButtons = () => (
     categories.map(categ => (
       // knowing that the categories' names are in this case unique, I decided to put them as keys as well
-      <li key={categ}><Category content={categ} onClick={handleClick} /></li>
+      <li key={categ}>
+        <Category
+          content={categ}
+          onClick={handleClick}
+          className={currentCategory === categ ? 'btn focused' : 'btn'}
+        />
+      </li>
     ))
   );
 
   // get random quote from a given category
   const handleClick = (content) => {
-    getRandomQuote(`${url}random?category=${content}`)
+    getRandomQuote(`${url}random?category=${content}`);
+    setCurrentCategory(content);
   };
+
+  const handleClickRandom = () => {
+    getRandomQuote(`${url}random`);
+    setCurrentCategory('random');
+  }
 
   return (
     <div className="App">
@@ -51,7 +65,11 @@ function App() {
       <h1 className="App-title">Categories</h1>
       <ul className="buttons-container">
         {showButtons()}
-        <Category content="random" onClick={() => getRandomQuote(url + 'random')} />
+        <Category
+          content="random"
+          onClick={handleClickRandom}
+          className={currentCategory === 'random' ? 'btn focused' : 'btn'}
+        />
       </ul>
       <div className="quote-container">
         <p className="quote-on-screen">{quoteOnScreen}</p>
