@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/css/main.c790fb77.chunk.css",
+    "main.js": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/main.b03c707e.chunk.js",
+    "main.js.map": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/main.b03c707e.chunk.js.map",
+    "runtime-main.js": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/runtime-main.1779a12c.js",
+    "runtime-main.js.map": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/runtime-main.1779a12c.js.map",
+    "static/js/2.6a89b9e5.chunk.js": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/2.6a89b9e5.chunk.js",
+    "static/js/2.6a89b9e5.chunk.js.map": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/2.6a89b9e5.chunk.js.map",
+    "static/js/3.d45c9790.chunk.js": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/3.d45c9790.chunk.js",
+    "static/js/3.d45c9790.chunk.js.map": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/3.d45c9790.chunk.js.map",
+    "index.html": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/index.html",
+    "static/css/main.c790fb77.chunk.css.map": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/css/main.c790fb77.chunk.css.map",
+    "static/js/2.6a89b9e5.chunk.js.LICENSE.txt": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/js/2.6a89b9e5.chunk.js.LICENSE.txt",
+    "static/media/chuck.3166d870.png": "/http//iggydev34.github.io/Chuck-Norris-Jokes-Repository/static/media/chuck.3166d870.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1779a12c.js",
+    "static/js/2.6a89b9e5.chunk.js",
+    "static/css/main.c790fb77.chunk.css",
+    "static/js/main.b03c707e.chunk.js"
+  ]
+}
