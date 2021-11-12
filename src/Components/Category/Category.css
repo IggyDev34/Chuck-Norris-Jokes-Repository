@@ -14,7 +14,7 @@
   border: 1px solid #422ED4;
 }
 
-.btn:focus {
+.focused {
   background-color: #422ED4;
   color: #fff;
 }

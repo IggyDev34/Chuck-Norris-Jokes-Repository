@@ -1,7 +1,7 @@
 import './Category.css';
 
-function Category({ content, onClick }) {
-  return <button onClick={() => onClick(content)} className="btn">{content}</button>;
+function Category({ content, onClick, className }) {
+  return <button onClick={() => onClick(content)} className={className}>{content}</button>;
 }
 
 export default Category;
