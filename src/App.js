@@ -74,7 +74,7 @@ function App() {
       <div className="quote-container">
         <p className="quote-on-screen">{quoteOnScreen}</p>
       </div>
-      <img src={image} alt="a Chuck Norris image" className="chuck-image" />
+      <img src={image} alt="Chuck Norris" className="chuck-image" />
     </div>
   );
 }

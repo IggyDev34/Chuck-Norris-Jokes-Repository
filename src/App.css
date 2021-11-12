@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-bottom: 180px;
+  padding-bottom: 200px;
 }
 
 .quote-container {
@@ -42,7 +42,23 @@ body {
 
 .chuck-image {
   position: absolute;
-  top: 534px;
+  top: 559px;
   right: 189px;
   z-index: -1;
+}
+
+@media (max-width: 1150px) {
+  .chuck-image {
+    display: none;
+  }
+
+  .buttons-container {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .App-title {
+    font-size: 30px;
+  }
 }
